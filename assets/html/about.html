@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Traffic Cameras</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+  <meta name="viewport" content="initial-scale=1.0">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <header id="masthead">
+    <div class="container">
+      <a href="../../index.html" id="logo">Traffic Cameras</a>
+      <nav>
+        <ul>
+          <li><a href="../../index.html">Maps</a></li>
+          <li><a href="routePage.html">Route</a></li>
+          <li><a href="about.html" id="currentPage">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="wrapper">  
+    <div class="company-info">  
+    </div>
+  </div>
+  <div class="media" style="background: #808080">
+ 
+    <div id="appDirections" style="background-color: #808080;color:white;padding:1.5em">
+      <h2 id="HowTo" style="background-color:#690C1F">&nbsp;&nbsp;HOW TO USE OUR APP TO AVOID EXPENSIVE TICKETS</h2>
+      <img src="../images/PhotoEnforcedPic.jpg" class="media-object" style="width:200px">   
+      <img src="../images/CameraPic.jpg" class="media-object style="width:25%;height:25%; margin-top:2em">
+    
+      <ul style="font-size:2em">
+        <img src="../images/Mode.jpg">
+        <li>Select Map mode to see camera near that location<br><img src="../images/MapSelection.jpg"></li>
+        <li>Select Route mode to display cameras on that route<br><img src="../images/RouteSelection.jpg"></li>
+        <li><span style="font-weight: bold">Map Mode</span><br>Enter your address. Select SUBMIT to see the location of the cameras<br><img src="../images/MapModeExample.jpg"></li>
+        <li><span style="font-weight: bold">Route Mode</span><br>Select route for directions
+        <br><br><img src="../images/RouteModeExample.jpg">
+        <li>Select Submit to see the map of your location(s). Beginning location is marked with an A marker, destination with a B marker. Click on the A or B to see the address display
+        <img src="../images/MapModeModal.jpg">
+        <br>These ICONS note the location of the cameras:<br>
+        RED LIGHT CAMERA ICON <img src="../images/RedLightIcon.jpg">
+        &nbsp;&nbsp;SPEED CAMERA ICON <img src="../images/SpeedCameraIcon.jpg">
+        </li>
+        <img src="../images/RouteModeExampleMap.jpg" style="width:80%;height:80%">
+        <br>To zoom select the + or - <img src="../images/zoom.jpg"> or use the usual window zoom methods
+     </ul>
+    </div>
+
+    <div style="background-color: white;color:black;padding:0;font-size:1.5em">
+      <blockquote>
+      <h3>How the cameras catch motorists</h3>
+        <p>Since 2003, when Chicago first awarded the contract to Redflex, drivers who run red lights at up to 384 cameras are tagged by what is known as "magnetic induction loop" technology. Oddly, it doesn't determine whether you stop at a red light, but how fast you are going as you approach.</p>
+
+        <p>That's because under the law, the camera system has to capture you entering the intersection after the light is red. So the camera must start recording before any violation takes place. Rather than capture images of tens of millions of cars passing by legally, the system is designed to predict which vehicles are most likely to run the red light.</p>
+
+        <p>A loop of sensors embedded in the pavement near the intersection measures your speed, and if you are going faster than a preset "trigger speed" — usually 13 miles per hour — the video camera is triggered. The video camera records your car moving through the intersection, the traffic light visible overhead. A separate still camera records your license plate.</p>
+
+        <footer><a href="http://www.chicagotribune.com/news/ct-red-light-camera-ticket-spikes-met-20140717-story.html">From Chicago Tribune July 07 2014</a></footer>
+
+      </blockquote>
+    </div>
+  </div>
+
+  <script src="assets/javascript/addressPageSubmitLogic.js"></script>
+  <script src="assets/javascript/data.js"></script>
+</body>
+</html>

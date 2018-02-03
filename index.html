@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Traffic Cameras </title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+  <meta name="viewport" content="initial-scale=1.0">
+  <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header id="masthead">
+    <div class="container">
+      <a id="logo">Traffic Cameras</a>
+      <nav>
+        <ul>
+          <li><a href="index.html" id="currentPage">Maps</a></li>
+          <li><a href="assets/html/routePage.html">Route</a></li>
+          <li><a href="assets/html/about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+ <!--<h1 class="brand"> Red lights Cameras</h1> -->
+    <div class="wrapper">  
+      <div class="company-info">
+        
+
+      </div>
+      <div class="address-input">
+        <form id="addressForm">
+          <p>
+            <label>Address:</label>
+            <input type="text" name="address" id="address" required>
+          </p>
+          <p>
+            <label>Zipcode:</label>
+<!--                <input type="number" id="replyNumber" min="0" step="1" data-bind="value:replyNumber" /> -->
+
+            <input type="text" name="zipcode" id="zipcode" required>
+<!--              <span class="glyphicon glyphicon-search">
+    <span class="glyphicon glyphicon-ok form-control-feedback"></span> -->
+          </p>
+          <p>
+            <label>City:</label>
+            <input type="text" name="city" id="city">
+          </p>
+          <p>
+            <label>State:</label>
+            <input type="text" name="state" id="state">
+          </p>
+          <p class="full">
+            <button type="submit" id="submit" onclick="myFunction()"><h>Submit<h/></button>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="assets/javascript/addressPageSubmitLogic.js"></script>
+  <script src="assets/javascript/data.js"></script>
+  <script type="text/javascript">
+    function myFunction() {
+      var text = "";
+      var zip = $("#zipcode").text;
+          // If x is Not a Number or less than one or greater than 10
+    if (isNaN(zip) || zip < 1 || zip > 10) {
+        text = "Input not valid";
+    } else {
+        text = "Input OK";
+    }
+    $("#zipcode").text = text
+      //console.log(zip)
+    }
+  </script>
+</body>
+</html>
