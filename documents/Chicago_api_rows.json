@@ -1,0 +1,866 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "thvf-6diy",
+      "name" : "Red Light Camera Locations",
+      "attribution" : "City of Chicago",
+      "attributionLink" : "http://www.cityofchicago.org",
+      "averageRating" : 0,
+      "category" : "Transportation",
+      "createdAt" : 1407782924,
+      "description" : "This dataset shows the location, first operational date, and approaches of the red light cameras in the City of Chicago. The approach describes the originating direction of travel which is monitored by a red light camera.",
+      "displayType" : "table",
+      "downloadCount" : 2261,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1516447768,
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 24980307,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1480461214,
+      "publicationGroup" : 1680313,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1516447635,
+      "rowsUpdatedBy" : "n9j5-zhen",
+      "tableId" : 13926699,
+      "totalTimesRated" : 0,
+      "viewCount" : 1604,
+      "viewLastModified" : 1480461214,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 279481420,
+        "name" : "INTERSECTION",
+        "dataTypeName" : "text",
+        "fieldName" : "intersection",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 21344327,
+        "width" : 244,
+        "cachedContents" : {
+          "largest" : "Western-Van?Buren",
+          "non_null" : 146,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Western-63rd",
+            "count" : 20
+          }, {
+            "item" : "Hamlin-Madison",
+            "count" : 19
+          }, {
+            "item" : "Laramie-Irving Park",
+            "count" : 18
+          }, {
+            "item" : "Cicero-Armitage",
+            "count" : 17
+          }, {
+            "item" : "Jeffery-95th",
+            "count" : 16
+          }, {
+            "item" : "Canal-Roosevelt",
+            "count" : 15
+          }, {
+            "item" : "Western-Chicago",
+            "count" : 14
+          }, {
+            "item" : "Narragansett-Irving Park",
+            "count" : 13
+          }, {
+            "item" : "Lake Shore-Belmont",
+            "count" : 12
+          }, {
+            "item" : "Cicero-Lawrence",
+            "count" : 11
+          }, {
+            "item" : "Ashland-Lawrence",
+            "count" : 10
+          }, {
+            "item" : "Osceola-Touhy",
+            "count" : 9
+          }, {
+            "item" : "Cicero-Stevenson NB (SOUTH INTERSECTION)",
+            "count" : 8
+          }, {
+            "item" : "Stony?Island-Cornell-67th",
+            "count" : 7
+          }, {
+            "item" : "Western-Van?Buren",
+            "count" : 6
+          }, {
+            "item" : "Stony?Island-79th-South Chicago",
+            "count" : 5
+          }, {
+            "item" : "Western-Peterson",
+            "count" : 4
+          }, {
+            "item" : "Elston-Lawrence",
+            "count" : 3
+          }, {
+            "item" : "Milwaukee-Montrose",
+            "count" : 2
+          }, {
+            "item" : "Damen-Elston",
+            "count" : 1
+          } ],
+          "smallest" : "Ashland-71st"
+        },
+        "format" : {
+          "align" : "left",
+          "aggregate" : "count"
+        }
+      }, {
+        "id" : 279481421,
+        "name" : "FIRST APPROACH",
+        "dataTypeName" : "text",
+        "fieldName" : "first_approach",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 21344328,
+        "width" : 193,
+        "cachedContents" : {
+          "largest" : "WB",
+          "non_null" : 146,
+          "null" : 0,
+          "top" : [ {
+            "item" : "SB",
+            "count" : 20
+          }, {
+            "item" : "NB",
+            "count" : 19
+          }, {
+            "item" : "EB",
+            "count" : 18
+          }, {
+            "item" : "WB",
+            "count" : 17
+          }, {
+            "item" : "SEB",
+            "count" : 16
+          } ],
+          "smallest" : "EB"
+        },
+        "format" : { }
+      }, {
+        "id" : 279481422,
+        "name" : "SECOND APPROACH",
+        "dataTypeName" : "text",
+        "fieldName" : "second_approach",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 21344329,
+        "width" : 211,
+        "cachedContents" : {
+          "largest" : "WB",
+          "non_null" : 144,
+          "null" : 2,
+          "top" : [ {
+            "item" : "NB",
+            "count" : 20
+          }, {
+            "item" : "WB",
+            "count" : 19
+          }, {
+            "item" : "SB",
+            "count" : 18
+          }, {
+            "item" : "EB",
+            "count" : 17
+          }, {
+            "item" : "SEB",
+            "count" : 16
+          } ],
+          "smallest" : "EB"
+        },
+        "format" : { }
+      }, {
+        "id" : 279481423,
+        "name" : "THIRD APPROACH",
+        "dataTypeName" : "text",
+        "fieldName" : "third_approach",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 21344330,
+        "width" : 195,
+        "cachedContents" : {
+          "largest" : "SB",
+          "non_null" : 4,
+          "null" : 142,
+          "top" : [ {
+            "item" : "EB",
+            "count" : 20
+          }, {
+            "item" : "SB",
+            "count" : 19
+          }, {
+            "item" : "NB",
+            "count" : 18
+          } ],
+          "smallest" : "EB"
+        },
+        "format" : { }
+      }, {
+        "id" : 279481424,
+        "name" : "GO LIVE DATE",
+        "dataTypeName" : "calendar_date",
+        "fieldName" : "go_live_date",
+        "position" : 5,
+        "renderTypeName" : "calendar_date",
+        "tableColumnId" : 21344331,
+        "width" : 183,
+        "cachedContents" : {
+          "largest" : "2017-09-29T00:00:00",
+          "non_null" : 146,
+          "null" : 0,
+          "top" : [ {
+            "item" : "2007-10-18T00:00:00",
+            "count" : 20
+          }, {
+            "item" : "2008-08-26T00:00:00",
+            "count" : 19
+          }, {
+            "item" : "2008-05-31T00:00:00",
+            "count" : 18
+          }, {
+            "item" : "2008-11-30T00:00:00",
+            "count" : 17
+          }, {
+            "item" : "2008-07-31T00:00:00",
+            "count" : 16
+          }, {
+            "item" : "2008-04-30T00:00:00",
+            "count" : 15
+          }, {
+            "item" : "2007-11-26T00:00:00",
+            "count" : 14
+          }, {
+            "item" : "2008-06-30T00:00:00",
+            "count" : 13
+          }, {
+            "item" : "2004-10-14T00:00:00",
+            "count" : 12
+          }, {
+            "item" : "2009-06-29T00:00:00",
+            "count" : 11
+          }, {
+            "item" : "2008-10-21T00:00:00",
+            "count" : 10
+          }, {
+            "item" : "2009-04-29T00:00:00",
+            "count" : 9
+          }, {
+            "item" : "2007-05-07T00:00:00",
+            "count" : 8
+          }, {
+            "item" : "2004-02-26T00:00:00",
+            "count" : 7
+          }, {
+            "item" : "2009-06-08T00:00:00",
+            "count" : 6
+          }, {
+            "item" : "2010-03-11T00:00:00",
+            "count" : 5
+          }, {
+            "item" : "2006-02-17T00:00:00",
+            "count" : 4
+          }, {
+            "item" : "2017-09-29T00:00:00",
+            "count" : 3
+          } ],
+          "smallest" : "2003-11-01T00:00:00"
+        },
+        "format" : {
+          "view" : "date",
+          "align" : "left"
+        }
+      }, {
+        "id" : 279481425,
+        "name" : "LATITUDE",
+        "dataTypeName" : "number",
+        "fieldName" : "latitude",
+        "position" : 6,
+        "renderTypeName" : "number",
+        "tableColumnId" : 21344332,
+        "width" : 139,
+        "cachedContents" : {
+          "largest" : "42.012279",
+          "non_null" : 146,
+          "average" : "41.88545370547945",
+          "null" : 0,
+          "top" : [ {
+            "item" : "41.779214",
+            "count" : 20
+          }, {
+            "item" : "41.880789",
+            "count" : 19
+          }, {
+            "item" : "41.953299",
+            "count" : 18
+          }, {
+            "item" : "41.916931",
+            "count" : 17
+          }, {
+            "item" : "41.722468",
+            "count" : 16
+          }, {
+            "item" : "41.867252",
+            "count" : 15
+          }, {
+            "item" : "41.895743",
+            "count" : 14
+          }, {
+            "item" : "41.952916",
+            "count" : 13
+          }, {
+            "item" : "41.94024",
+            "count" : 12
+          }, {
+            "item" : "41.968029",
+            "count" : 11
+          }, {
+            "item" : "41.968876",
+            "count" : 10
+          }, {
+            "item" : "42.011553",
+            "count" : 9
+          }, {
+            "item" : "41.817092",
+            "count" : 8
+          }, {
+            "item" : "41.77334",
+            "count" : 7
+          }, {
+            "item" : "41.876083",
+            "count" : 6
+          }, {
+            "item" : "41.751506",
+            "count" : 5
+          }, {
+            "item" : "41.9905",
+            "count" : 4
+          }, {
+            "item" : "41.968108",
+            "count" : 3
+          }, {
+            "item" : "41.960632",
+            "count" : 2
+          }, {
+            "item" : "41.925816",
+            "count" : 1
+          } ],
+          "smallest" : "41.677815",
+          "sum" : "6115.276241"
+        },
+        "format" : { }
+      }, {
+        "id" : 279481426,
+        "name" : "LONGITUDE",
+        "dataTypeName" : "number",
+        "fieldName" : "longitude",
+        "position" : 7,
+        "renderTypeName" : "number",
+        "tableColumnId" : 21344333,
+        "width" : 153,
+        "cachedContents" : {
+          "largest" : "-87.575353",
+          "non_null" : 146,
+          "average" : "-87.70086713698630",
+          "null" : 0,
+          "top" : [ {
+            "item" : "-87.683638",
+            "count" : 20
+          }, {
+            "item" : "-87.720752",
+            "count" : 19
+          }, {
+            "item" : "-87.757148",
+            "count" : 18
+          }, {
+            "item" : "-87.746111",
+            "count" : 17
+          }, {
+            "item" : "-87.575353",
+            "count" : 16
+          }, {
+            "item" : "-87.639216",
+            "count" : 15
+          }, {
+            "item" : "-87.686843",
+            "count" : 14
+          }, {
+            "item" : "-87.786558",
+            "count" : 13
+          }, {
+            "item" : "-87.638696",
+            "count" : 12
+          }, {
+            "item" : "-87.74772",
+            "count" : 11
+          }, {
+            "item" : "-87.66944",
+            "count" : 10
+          }, {
+            "item" : "-87.812251",
+            "count" : 9
+          }, {
+            "item" : "-87.743477",
+            "count" : 8
+          }, {
+            "item" : "-87.586295",
+            "count" : 7
+          }, {
+            "item" : "-87.686271",
+            "count" : 6
+          }, {
+            "item" : "-87.585823",
+            "count" : 5
+          }, {
+            "item" : "-87.689671",
+            "count" : 4
+          }, {
+            "item" : "-87.740163",
+            "count" : 3
+          }, {
+            "item" : "-87.754476",
+            "count" : 2
+          }, {
+            "item" : "-87.677898",
+            "count" : 1
+          } ],
+          "smallest" : "-87.812251",
+          "sum" : "-12804.326602"
+        },
+        "format" : { }
+      }, {
+        "id" : 279481427,
+        "name" : "LOCATION",
+        "dataTypeName" : "location",
+        "fieldName" : "location",
+        "position" : 8,
+        "renderTypeName" : "location",
+        "tableColumnId" : 21344334,
+        "width" : 161,
+        "cachedContents" : {
+          "largest" : {
+            "latitude" : "41.931791",
+            "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+            "longitude" : "-87.726979"
+          },
+          "non_null" : 146,
+          "null" : 0,
+          "top" : [ {
+            "item" : {
+              "latitude" : "41.779214",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-87.683638"
+            },
+            "count" : 20
+          }, {
+            "item" : {
+              "latitude" : "41.880789",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-87.720752"
+            },
+            "count" : 19
+          }, {
+            "item" : {
+              "latitude" : "41.953299",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-87.757148"
+            },
+            "count" : 18
+          }, {
+            "item" : {
+              "latitude" : "41.916931",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-87.746111"
+            },
+            "count" : 17
+          }, {
+            "item" : {
+              "latitude" : "41.722468",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-87.575353"
+            },
+            "count" : 16
+          }, {
+            "item" : {
+              "latitude" : "41.867252",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-87.639216"
+            },
+            "count" : 15
+          }, {
+            "item" : {
+              "latitude" : "41.895743",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-87.686843"
+            },
+            "count" : 14
+          }, {
+            "item" : {
+              "latitude" : "41.952916",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-87.786558"
+            },
+            "count" : 13
+          }, {
+            "item" : {
+              "latitude" : "41.94024",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-87.638696"
+            },
+            "count" : 12
+          }, {
+            "item" : {
+              "latitude" : "41.968029",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-87.74772"
+            },
+            "count" : 11
+          }, {
+            "item" : {
+              "latitude" : "41.968876",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-87.66944"
+            },
+            "count" : 10
+          }, {
+            "item" : {
+              "latitude" : "42.011553",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-87.812251"
+            },
+            "count" : 9
+          }, {
+            "item" : {
+              "latitude" : "41.817092",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-87.743477"
+            },
+            "count" : 8
+          }, {
+            "item" : {
+              "latitude" : "41.77334",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-87.586295"
+            },
+            "count" : 7
+          }, {
+            "item" : {
+              "latitude" : "41.876083",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-87.686271"
+            },
+            "count" : 6
+          }, {
+            "item" : {
+              "latitude" : "41.751506",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-87.585823"
+            },
+            "count" : 5
+          }, {
+            "item" : {
+              "latitude" : "41.9905",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-87.689671"
+            },
+            "count" : 4
+          }, {
+            "item" : {
+              "latitude" : "41.968108",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-87.740163"
+            },
+            "count" : 3
+          }, {
+            "item" : {
+              "latitude" : "41.960632",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-87.754476"
+            },
+            "count" : 2
+          }, {
+            "item" : {
+              "latitude" : "41.925816",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-87.677898"
+            },
+            "count" : 1
+          } ],
+          "smallest" : {
+            "latitude" : "41.931791",
+            "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+            "longitude" : "-87.726979"
+          }
+        },
+        "format" : {
+          "view" : "coords",
+          "align" : "left"
+        },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "rdfSubject" : "0",
+        "custom_fields" : {
+          "Metadata" : {
+            "Time Period" : "Current",
+            "Frequency" : "Daily",
+            "Data Owner" : "Transportation"
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        }
+      },
+      "owner" : {
+        "id" : "3qqc-w7ag",
+        "displayName" : "Tom Schenk Jr",
+        "profileImageUrlLarge" : "/api/users/3qqc-w7ag/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/3qqc-w7ag/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/3qqc-w7ag/profile_images/TINY",
+        "screenName" : "Tom Schenk Jr"
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "3qqc-w7ag",
+        "displayName" : "Tom Schenk Jr",
+        "profileImageUrlLarge" : "/api/users/3qqc-w7ag/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/3qqc-w7ag/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/3qqc-w7ag/profile_images/TINY",
+        "screenName" : "Tom Schenk Jr"
+      },
+      "tags" : [ "transportation", "red light cameras", "traffic" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ 5944, "0B7DA671-A671-40C7-8F73-C9B0F5A392A1", 5944, 1414553253, "878752", 1414553253, "878752", null, "Pulaski-Diversey", "SB", "NB", null, "2009-05-15T00:00:00", "41.931791", "-87.726979", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.931791", "-87.726979", null, false ] ]
+, [ 5945, "368F1EC4-35CA-4043-8FBB-BD881EC8D246", 5945, 1414553253, "878752", 1414553253, "878752", null, "Pulaski-Foster", "SB", "WB", null, "2007-10-18T00:00:00", "41.975532", "-87.728234", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.975532", "-87.728234", null, false ] ]
+, [ 5947, "D7D52219-7C11-4158-959C-8AA306713269", 5947, 1414553253, "878752", 1414553253, "878752", null, "Cicero-Fullerton", "SB", "WB", null, "2006-02-25T00:00:00", "41.924237", "-87.746302", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.924237", "-87.746302", null, false ] ]
+, [ 5950, "5CB3504E-FF66-442C-8C1D-D93719B391E2", 5950, 1414553253, "878752", 1414553253, "878752", null, "Harlem-Belmont", "NB", "WB", null, "2007-06-18T00:00:00", "41.937997", "-87.806746", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.937997", "-87.806746", null, false ] ]
+, [ 5951, "C4C7A6EC-6A49-4FDD-83B1-91D867C82673", 5951, 1414553253, "878752", 1414553253, "878752", null, "Narragansett-Fullerton", "EB", "WB", null, "2008-11-14T00:00:00", "41.923676", "-87.785441", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.923676", "-87.785441", null, false ] ]
+, [ 5952, "94969B48-F46B-4001-B5E6-CDD8CF0A5893", 5952, 1414553253, "878752", 1414553253, "878752", null, "Western-Montrose", "NB", "WB", null, "2008-08-26T00:00:00", "41.961313", "-87.688681", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.961313", "-87.688681", null, false ] ]
+, [ 5953, "EC2CE580-8928-4973-B2F3-7EA445423171", 5953, 1414553253, "878752", 1414553253, "878752", null, "Halsted-Madison", "NB", "SB", null, "2008-06-14T00:00:00", "41.881776", "-87.647361", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.881776", "-87.647361", null, false ] ]
+, [ 5954, "7701DF88-78FA-41D0-A322-046B9F51888E", 5954, 1414553253, "878752", 1414553253, "878752", null, "State-75th", "NB", "WB", null, "2009-08-28T00:00:00", "41.75818", "-87.624757", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.75818", "-87.624757", null, false ] ]
+, [ 5956, "D98B5280-B33D-4872-9E93-A44AEF11C975", 5956, 1414553253, "878752", 1414553253, "878752", null, "Western-79th", "NB", "WB", null, "2007-05-07T00:00:00", "41.750101", "-87.682847", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.750101", "-87.682847", null, false ] ]
+, [ 5958, "1BC7FD1B-475F-444F-96D7-079F3052AEB2", 5958, 1414553253, "878752", 1414553253, "878752", null, "California-Irving Park", "WB", "EB", null, "2008-08-26T00:00:00", "41.953973", "-87.69824", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.953973", "-87.69824", null, false ] ]
+, [ 5960, "D090387F-6FCC-40B5-A0DD-F1A9857C392A", 5960, 1414553253, "878752", 1414553253, "878752", null, "Cicero-Chicago", "NB", "EB", null, "2007-10-05T00:00:00", "41.895003", "-87.745805", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.895003", "-87.745805", null, false ] ]
+, [ 5961, "C9708AF6-F594-4102-8050-524744DC6E0A", 5961, 1414553253, "878752", 1414553253, "878752", null, "Cicero-Archer", "NB", "WB", null, "2007-11-13T00:00:00", "41.798659", "-87.742927", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.798659", "-87.742927", null, false ] ]
+, [ 5962, "E32BE6DD-33B3-4F9C-BE7A-075F482D483E", 5962, 1414553253, "878752", 1414553253, "878752", null, "Austin-Addison", "EB", "NB", null, "2008-06-28T00:00:00", "41.945771", "-87.776504", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.945771", "-87.776504", null, false ] ]
+, [ 5964, "A1001284-BDE5-4AB9-9647-3FF15BCB0C68", 5964, 1414553253, "878752", 1414553253, "878752", null, "LaSalle-Kinzie", "NB", "EB", null, "2004-04-30T00:00:00", "41.889187", "-87.632526", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.889187", "-87.632526", null, false ] ]
+, [ 5965, "A709F6EE-A8C9-4D50-9F65-1F3A9C397889", 5965, 1414553253, "878752", 1414553253, "878752", null, "Broadway-Foster", "NB", "EB", null, "2007-10-18T00:00:00", "41.976323", "-87.659867", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.976323", "-87.659867", null, false ] ]
+, [ 5966, "1F6D7ABA-AD57-4157-9100-28D2ED77B89E", 5966, 1414553253, "878752", 1414553253, "878752", null, "Clark-Ridge", "NB", "SB", null, "2008-07-23T00:00:00", "41.989697", "-87.669985", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.989697", "-87.669985", null, false ] ]
+, [ 5968, "B79036E8-9901-4B37-BA5C-F6307A2F1844", 5968, 1414553253, "878752", 1414553253, "878752", null, "Kedzie-31st", "SB", "WB", null, "2008-05-23T00:00:00", "41.837231", "-87.704823", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.837231", "-87.704823", null, false ] ]
+, [ 5969, "43A152E9-BDD5-4A8D-A18D-A680BECB3ED1", 5969, 1414553253, "878752", 1414553253, "878752", null, "Pulaski-55th", "SB", "WB", null, "2004-11-19T00:00:00", "41.793205", "-87.72316", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.793205", "-87.72316", null, false ] ]
+, [ 5970, "A5ECE695-3BDC-447B-8BDC-68678F230A90", 5970, 1414553253, "878752", 1414553253, "878752", null, "Ashland-Cortland", "NB", "EB", null, "2006-02-26T00:00:00", "41.916128", "-87.6678", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.916128", "-87.6678", null, false ] ]
+, [ 5971, "A5B5F3FB-0822-4F8F-8679-7E5D3FC63C54", 5971, 1414553253, "878752", 1414553253, "878752", null, "California-Diversey", "NB", "WB", "EB", "2006-01-31T00:00:00", "41.932096", "-87.697616", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.932096", "-87.697616", null, false ] ]
+, [ 5972, "DC0D2FC2-9E41-4679-819D-C3B6ACA8B75C", 5972, 1414553253, "878752", 1414553253, "878752", null, "Damen-63rd", "NB", "SB", null, "2008-05-31T00:00:00", "41.779315", "-87.673906", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.779315", "-87.673906", null, false ] ]
+, [ 5973, "4048FF8F-9D50-4032-97B3-52999B60E1E2", 5973, 1414553253, "878752", 1414553253, "878752", null, "Laramie-Madison", "EB", "WB", null, "2011-05-11T00:00:00", "41.880371", "-87.755065", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.880371", "-87.755065", null, false ] ]
+, [ 5974, "C86C1676-DB28-4DFB-A4EB-0591A02B7A32", 5974, 1414553253, "878752", 1414553253, "878752", null, "Pulaski-Archer-50th", "EB", "WB", null, "2007-10-31T00:00:00", "41.802317", "-87.723422", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.802317", "-87.723422", null, false ] ]
+, [ 5977, "AEFABF94-9C97-4524-9AEB-D30B80F0367E", 5977, 1414553253, "878752", 1414553253, "878752", null, "Kostner-Grand-North", "EB", "NB", "SB", "2004-03-11T00:00:00", "41.909754", "-87.736262", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.909754", "-87.736262", null, false ] ]
+, [ 5978, "18644A31-7675-4F53-AF88-1A59ED4356D5", 5978, 1414553253, "878752", 1414553253, "878752", null, "Cicero-North", "EB", "WB", null, "2008-05-31T00:00:00", "41.909626", "-87.746112", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.909626", "-87.746112", null, false ] ]
+, [ 5979, "C62F5FF4-6D94-4AE8-9135-518BFD4D46FC", 5979, 1414553253, "878752", 1414553253, "878752", null, "Kedzie-71st", "SB", "WB", null, "2009-09-17T00:00:00", "41.76439", "-87.702811", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.76439", "-87.702811", null, false ] ]
+, [ 5980, "C4608ECF-9133-4FAF-9169-6685255697E2", 5980, 1414553253, "878752", 1414553253, "878752", null, "Clark-Chicago", "EB", "WB", null, "2010-10-22T00:00:00", "41.896635", "-87.631243", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.896635", "-87.631243", null, false ] ]
+, [ 5982, "1A324758-A8B4-4D87-AFF8-959C5F200047", 5982, 1414553254, "878752", 1414553254, "878752", null, "Kedzie-Armitage", "SB", "WB", null, "2009-01-23T00:00:00", "41.917402", "-87.706965", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.917402", "-87.706965", null, false ] ]
+, [ 5983, "861C3AF1-8530-419D-945E-615716D089DB", 5983, 1414553254, "878752", 1414553254, "878752", null, "Pulaski-Lawrence", "SB", "EB", null, "2008-07-31T00:00:00", "41.968242", "-87.728027", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.968242", "-87.728027", null, false ] ]
+, [ 5984, "0EB49038-1CBE-424E-8A5B-583C26A0EFB9", 5984, 1414553254, "878752", 1414553254, "878752", null, "Ashland-95th", "SB", "EB", null, "2009-06-26T00:00:00", "41.721214", "-87.662684", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.721214", "-87.662684", null, false ] ]
+, [ 5985, "FBE3CE48-4E41-4816-9B7F-9784BF555855", 5985, 1414553254, "878752", 1414553254, "878752", null, "Milwaukee-Diversey", "NB", "EB", null, "2009-06-29T00:00:00", "41.931984", "-87.712251", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.931984", "-87.712251", null, false ] ]
+, [ 5986, "94773A1E-861C-4E6E-98F9-BC7578DA49B5", 5986, 1414553254, "878752", 1414553254, "878752", null, "Elston-Irving Park", "SB", "EB", null, "2009-08-12T00:00:00", "41.95373", "-87.719084", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.95373", "-87.719084", null, false ] ]
+, [ 5987, "AF70D7D7-7B60-4FDE-9B75-71EE126B93F5", 5987, 1414553254, "878752", 1414553254, "878752", null, "Ashland-71st", "NB", "WB", null, "2004-10-11T00:00:00", "41.76491", "-87.663794", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.76491", "-87.663794", null, false ] ]
+, [ 5989, "FF4383AD-1E41-40F5-9418-C55D39338225", 5989, 1414553254, "878752", 1414553254, "878752", null, "Western-Foster", "SB", "WB", null, "2007-06-05T00:00:00", "41.97589", "-87.689148", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.97589", "-87.689148", null, false ] ]
+, [ 5990, "BDBE9638-CAF6-4EB8-A896-EC306D63987B", 5990, 1414553254, "878752", 1414553254, "878752", null, "Central-Diversey", "SB", "WB", null, "2009-08-18T00:00:00", "41.931278", "-87.766248", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.931278", "-87.766248", null, false ] ]
+, [ 5991, "100EAA7C-9011-4FEB-8B79-9DB14F93526A", 5991, 1414553254, "878752", 1414553254, "878752", null, "Halsted-99th", "NB", "EB", null, "2006-01-01T00:00:00", "41.714215", "-87.643004", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.714215", "-87.643004", null, false ] ]
+, [ 5995, "34DF44E4-1958-4696-B1A5-82109D7A2148", 5995, 1414553254, "878752", 1414553254, "878752", null, "Western-Marquette", "SB", "WB", null, "2008-11-30T00:00:00", "41.771977", "-87.683443", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.771977", "-87.683443", null, false ] ]
+, [ 5996, "C60A49B6-71F2-484B-8B8F-E9CA17FC6300", 5996, 1414553254, "878752", 1414553254, "878752", null, "Damen-Division", "EB", "WB", null, "2009-12-29T00:00:00", "41.903191", "-87.677258", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.903191", "-87.677258", null, false ] ]
+, [ 5997, "E049D666-FE46-4A41-B8DB-EC50AC41809D", 5997, 1414553254, "878752", 1414553254, "878752", null, "Ashland-87th", "SB", "WB", null, "2007-03-31T00:00:00", "41.735788", "-87.663063", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.735788", "-87.663063", null, false ] ]
+, [ 5998, "3300E0DC-265D-4B99-9392-9A4076BC8A80", 5998, 1414553254, "878752", 1414553254, "878752", null, "Pulaski-Chicago", "SB", "EB", null, "2010-02-20T00:00:00", "41.895367", "-87.726078", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.895367", "-87.726078", null, false ] ]
+, [ 5999, "6DF4435B-A75E-4DFF-8B99-83E1957ED23A", 5999, 1414553254, "878752", 1414553254, "878752", null, "Ashland-Fullerton", "NB", "SB", null, "2009-06-08T00:00:00", "41.92515", "-87.668144", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.92515", "-87.668144", null, false ] ]
+, [ 6000, "46B427D1-8DA4-47CF-8095-4C7425E832D4", 6000, 1414553254, "878752", 1414553254, "878752", null, "Central-Chicago", "SB", "EB", null, "2010-05-28T00:00:00", "41.894852", "-87.765395", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.894852", "-87.765395", null, false ] ]
+, [ 6001, "F2596A63-6753-45E1-B86D-236F339E04EA", 6001, 1414553254, "878752", 1414553254, "878752", null, "Ashland-Madison", "NB", "WB", null, "2004-03-06T00:00:00", "41.881454", "-87.666802", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.881454", "-87.666802", null, false ] ]
+, [ 6002, "E2330E12-206E-4FCC-BDA0-17EF08A45CAB", 6002, 1414553254, "878752", 1414553254, "878752", null, "Sheridan-Foster", "SB", "WB", null, "2008-01-26T00:00:00", "41.976396", "-87.654993", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.976396", "-87.654993", null, false ] ]
+, [ 6003, "E40FC7C9-9289-4606-8357-53660CB22F94", 6003, 1414553254, "878752", 1414553254, "878752", null, "Western-55th", "SB", "EB", null, "2003-11-01T00:00:00", "41.793877", "-87.68404", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.793877", "-87.68404", null, false ] ]
+, [ 6006, "5E0885BC-7799-4D01-97D7-484D49A3E0D1", 6006, 1414553254, "878752", 1414553254, "878752", null, "Pulaski-Roosevelt", "NB", "WB", null, "2009-07-17T00:00:00", "41.866172", "-87.725169", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.866172", "-87.725169", null, false ] ]
+, [ 6007, "203AFD2F-B822-4E79-830B-7D85DEDE4A89", 6007, 1414553254, "878752", 1414553254, "878752", null, "Kedzie-26th", "NB", "SB", null, "2010-11-02T00:00:00", "41.844518", "-87.705042", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.844518", "-87.705042", null, false ] ]
+, [ 6009, "D50E600B-3F06-4C0C-B2B4-B9BAA3331546", 6009, 1414553254, "878752", 1414553254, "878752", null, "Stony Island-76th", "NB", "SB", null, "2008-11-30T00:00:00", "41.756944", "-87.58609", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.756944", "-87.58609", null, false ] ]
+, [ 6010, "2144A15E-40CB-403D-A36F-4DA3503C98EB", 6010, 1414553254, "878752", 1414553254, "878752", null, "Western-Madison", "NB", "WB", null, "2004-06-01T00:00:00", "41.881161", "-87.686432", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.881161", "-87.686432", null, false ] ]
+, [ 6011, "2C51B347-C98E-4D76-AF1D-4781E01FCB4A", 6011, 1414553254, "878752", 1414553254, "878752", null, "Central-Belmont", "SB", "WB", null, "2009-02-05T00:00:00", "41.938573", "-87.766499", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.938573", "-87.766499", null, false ] ]
+, [ 6012, "A1D8ABA3-E7CB-4460-A793-326FEC312744", 6012, 1414553254, "878752", 1414553254, "878752", null, "Broadway-Sheridan-Devon", "SB", "EB", null, "2007-10-18T00:00:00", "41.99819", "-87.660545", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.99819", "-87.660545", null, false ] ]
+, [ 6013, "CA2F2769-E919-4F9F-A60F-1BE3D8721450", 6013, 1414553254, "878752", 1414553254, "878752", null, "Ashland-Irving Park", "NB", "EB", null, "2008-08-26T00:00:00", "41.954291", "-87.669047", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.954291", "-87.669047", null, false ] ]
+, [ 6014, "727C64E8-3016-488C-94E4-0BDB44CFA0B3", 6014, 1414553254, "878752", 1414553254, "878752", null, "California-Peterson", "NB", "EB", null, "2009-06-29T00:00:00", "41.990442", "-87.699401", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.990442", "-87.699401", null, false ] ]
+, [ 6017, "60AC316A-2F34-4ABF-950B-BE54D51E6D59", 6017, 1414553254, "878752", 1414553254, "878752", null, "Pulaski-79th", "SB", "WB", null, "2009-09-17T00:00:00", "41.749569", "-87.721913", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.749569", "-87.721913", null, false ] ]
+, [ 6018, "7C929F1E-A3F2-4E9E-84EE-D944B3E81494", 6018, 1414553254, "878752", 1414553254, "878752", null, "Dr Martin Luther King-31st", "NB", "EB", null, "2008-06-22T00:00:00", "41.838419", "-87.617465", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.838419", "-87.617465", null, false ] ]
+, [ 6019, "D111481A-2502-415A-8490-93246D8E40F3", 6019, 1414553254, "878752", 1414553254, "878752", null, "Illinois-Columbus", "NB", "SB", null, "2010-10-28T00:00:00", "41.891002", "-87.620224", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.891002", "-87.620224", null, false ] ]
+, [ 6020, "5785C6C0-84DF-4DF8-8E17-8E0ACAC0BA71", 6020, 1414553254, "878752", 1414553254, "878752", null, "Laramie-Fullerton", "WB", "NB", null, "2008-06-28T00:00:00", "41.924106", "-87.756147", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.924106", "-87.756147", null, false ] ]
+, [ 6021, "18117C51-8C80-488E-A6D6-4BF5A4910A05", 6021, 1414553254, "878752", 1414553254, "878752", null, "Central-Irving Park", "SB", "EB", null, "2008-06-30T00:00:00", "41.953183", "-87.766998", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.953183", "-87.766998", null, false ] ]
+, [ 6022, "AF7E0133-1BA2-4FB6-A841-55D35E49BE57", 6022, 1414553254, "878752", 1414553254, "878752", null, "Clark-Fullerton", "NB", "SB", null, "2007-06-27T00:00:00", "41.925585", "-87.64048", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.925585", "-87.64048", null, false ] ]
+, [ 6023, "B96B8EFC-0A3A-4B80-AD3B-E2A0B00EA44D", 6023, 1414553254, "878752", 1414553254, "878752", null, "Halsted-Division", "NB", "WB", null, "2004-04-07T00:00:00", "41.903636", "-87.648094", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.903636", "-87.648094", null, false ] ]
+, [ 6025, "47416AB3-2303-48B1-896F-B374AFAB295F", 6025, 1414553254, "878752", 1414553254, "878752", null, "Cicero-Peterson", "SB", "WB", null, "2008-08-26T00:00:00", "41.989898", "-87.748325", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.989898", "-87.748325", null, false ] ]
+, [ 6027, "3044FC49-72D7-42CC-86B4-AD6CB2C33A2B", 6027, 1414553254, "878752", 1414553254, "878752", null, "Cicero-Diversey", "NB", "WB", null, "2010-02-11T00:00:00", "41.931533", "-87.746595", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.931533", "-87.746595", null, false ] ]
+, [ 6028, "6089C48D-80CF-4331-AE23-6386B8416E9F", 6028, 1414553254, "878752", 1414553254, "878752", null, "Lafayette-87th", "SB", "EB", null, "2009-08-31T00:00:00", "41.736271", "-87.625445", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.736271", "-87.625445", null, false ] ]
+, [ 6029, "3B67CF28-E44B-4AA2-98D1-3733300C6B25", 6029, 1414553254, "878752", 1414553254, "878752", null, "Cicero-Washington", "NB", "SB", null, "2008-06-14T00:00:00", "41.881815", "-87.745339", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.881815", "-87.745339", null, false ] ]
+, [ 6030, "24ECD571-048D-4EC2-99AB-884CBA49ACC9", 6030, 1414553254, "878752", 1414553254, "878752", null, "Pulaski-Fullerton", "WB", "NB", null, "2007-05-19T00:00:00", "41.924484", "-87.726769", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.924484", "-87.726769", null, false ] ]
+, [ 6032, "4521C5D2-5E4F-4110-8E46-947AAFAFDAC3", 6032, 1414553254, "878752", 1414553254, "878752", null, "Cicero-47th", "SB", "WB", null, "2008-03-31T00:00:00", "41.807623", "-87.743153", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.807623", "-87.743153", null, false ] ]
+, [ 6034, "6457AA12-AB50-40A1-A0D7-1062AA867F99", 6034, 1414553254, "878752", 1414553254, "878752", null, "Kedzie-47th", "NB", "WB", null, "2008-03-30T00:00:00", "41.808115", "-87.703974", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.808115", "-87.703974", null, false ] ]
+, [ 6035, "336F88BE-4994-4D62-86C0-16D38FF9142A", 6035, 1414553254, "878752", 1414553254, "878752", null, "Central-Addison", "SB", "EB", null, "2010-11-15T00:00:00", "41.945877", "-87.766754", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.945877", "-87.766754", null, false ] ]
+, [ 6036, "242EB600-F5D5-4E75-B075-03A09D6BBEEA", 6036, 1414553254, "878752", 1414553254, "878752", null, "Kostner-Ogden", "SB", "EB", null, "2008-05-23T00:00:00", "41.847697", "-87.734387", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.847697", "-87.734387", null, false ] ]
+, [ 6037, "89622542-CEAD-4BD6-B30D-A72BAEE50967", 6037, 1414553254, "878752", 1414553254, "878752", null, "Kedzie-Belmont", "SB", "EB", "NB", "2004-03-01T00:00:00", "41.93933", "-87.707696", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.93933", "-87.707696", null, false ] ]
+, [ 6038, "50A468FF-7CB5-4954-B490-429B106956F2", 6038, 1414553254, "878752", 1414553254, "878752", null, "Sacramento-Chicago", "NB", "WB", null, "2009-09-18T00:00:00", "41.895591", "-87.702455", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.895591", "-87.702455", null, false ] ]
+, [ 6039, "C9F6154F-4665-4400-8BA6-91DE508108A5", 6039, 1414553254, "878752", 1414553254, "878752", null, "Western-35th", "SB", "NB", null, "2004-10-11T00:00:00", "41.83028", "-87.685033", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.83028", "-87.685033", null, false ] ]
+, [ 6040, "15C1DB1C-FB65-4D54-BCD8-6861259F6476", 6040, 1414553254, "878752", 1414553254, "878752", null, "Sacramento-Lake", "NB", "SB", null, "2009-10-20T00:00:00", "41.884075", "-87.701291", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.884075", "-87.701291", null, false ] ]
+, [ 6041, "6038EE2D-C162-4F05-9BB4-6E5A9F4AAA22", 6041, 1414553254, "878752", 1414553254, "878752", null, "Homan-Kimball-North", "NB", "EB", null, "2007-10-05T00:00:00", "41.910053", "-87.711879", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.910053", "-87.711879", null, false ] ]
+, [ 6042, "56C6DEC6-5EEB-4925-9909-BF348B98AEA7", 6042, 1414553254, "878752", 1414553254, "878752", null, "Western-Cermak", "SB", "EB", null, "2009-12-29T00:00:00", "41.852031", "-87.685639", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.852031", "-87.685639", null, false ] ]
+, [ 6043, "15860238-F380-4FD8-849A-F04C53D6AA60", 6043, 1414553254, "878752", 1414553254, "878752", null, "Pulaski-North", "NB", "WB", null, "2008-11-30T00:00:00", "41.909886", "-87.72633", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.909886", "-87.72633", null, false ] ]
+, [ 6045, "689E6D81-6747-4374-9A29-F447CBAF860F", 6045, 1414553254, "878752", 1414553254, "878752", null, "Halsted-119th", "SB", "WB", null, "2004-11-02T00:00:00", "41.677815", "-87.641907", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.677815", "-87.641907", null, false ] ]
+, [ 6046, "F084E211-FAB1-45C7-81F9-193BD2875859", 6046, 1414553254, "878752", 1414553254, "878752", null, "Pulaski-Division", "NB", "SB", null, "2009-07-22T00:00:00", "41.902671", "-87.726303", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.902671", "-87.726303", null, false ] ]
+, [ 6047, "3223943F-0733-429E-894D-FFD6B071C864", 6047, 1414553254, "878752", 1414553254, "878752", null, "Hamlin-Lake", "NB", "SB", null, "2008-05-31T00:00:00", "41.885203", "-87.720919", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.885203", "-87.720919", null, false ] ]
+, [ 6048, "65E6B926-B7C2-40EC-879B-F68BB144BC5B", 6048, 1414553254, "878752", 1414553254, "878752", null, "Western-47th", "SB", "NB", null, "2004-11-29T00:00:00", "41.808426", "-87.684425", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.808426", "-87.684425", null, false ] ]
+, [ 6050, "39EAC240-9382-400C-8ECA-596F07AD8979", 6050, 1414553254, "878752", 1414553254, "878752", null, "Halsted-111th", "SB", "WB", null, "2006-01-01T00:00:00", "41.692355", "-87.642377", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.692355", "-87.642377", null, false ] ]
+, [ 6051, "734AC9BE-C13E-4B6C-BF46-4AFAD1CAA92D", 6051, 1414553254, "878752", 1414553254, "878752", null, "Western-Addison", "NB", "EB", null, "2009-06-08T00:00:00", "41.946731", "-87.688258", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.946731", "-87.688258", null, false ] ]
+, [ 6053, "1B594C19-6174-4F7B-BE54-AADA70F5E368", 6053, 1414553254, "878752", 1414553254, "878752", null, "Central-Fullerton", "SB", "WB", null, "2007-10-05T00:00:00", "41.92398", "-87.765989", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.92398", "-87.765989", null, false ] ]
+, [ 6054, "AFCCBE85-6B4F-48D1-966A-E5C55A3D19CE", 6054, 1414553254, "878752", 1414553254, "878752", null, "Halsted-Roosevelt", "WB", "EB", null, "2008-06-14T00:00:00", "41.867152", "-87.646919", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.867152", "-87.646919", null, false ] ]
+, [ 6056, "35D5493E-9E10-4391-9249-9C69BB63C21E", 6056, 1414553254, "878752", 1414553254, "878752", null, "California-Devon", "NB", "EB", null, "2008-07-31T00:00:00", "41.997559", "-87.699643", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.997559", "-87.699643", null, false ] ]
+, [ 6058, "887369E3-68F1-4BFF-ADE6-6BEBDE4E555C", 6058, 1414553254, "878752", 1414553254, "878752", null, "Pulaski-Armitage", "WB", "EB", null, "2008-05-31T00:00:00", "41.917165", "-87.726559", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.917165", "-87.726559", null, false ] ]
+, [ 6059, "14076077-98EB-4B75-A9AC-C125232F70C8", 6059, 1414553254, "878752", 1414553254, "878752", null, "Kilpatrick-Irving Park", "EB", "WB", null, "2008-10-21T00:00:00", "41.953446", "-87.745578", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.953446", "-87.745578", null, false ] ]
+, [ 6060, "4875B8A9-262F-4956-B6A2-5FC28FAC2C12", 6060, 1414553254, "878752", 1414553254, "878752", null, "Clark-Irving Park", "EB", "NB", null, "2008-07-22T00:00:00", "41.954378", "-87.662248", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.954378", "-87.662248", null, false ] ]
+, [ 6061, "27F9FC08-7F13-4EE2-9FF3-885887DF3384", 6061, 1414553254, "878752", 1414553254, "878752", null, "Halsted-95th", "NB", "SB", null, "2008-04-30T00:00:00", "41.721458", "-87.643212", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.721458", "-87.643212", null, false ] ]
+, [ 6063, "698E7D5A-9276-4639-8D96-13A658159A81", 6063, 1414553254, "878752", 1414553254, "878752", null, "Western-Lawrence", "SB", "EB", null, "2008-07-31T00:00:00", "41.968614", "-87.688906", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.968614", "-87.688906", null, false ] ]
+, [ 6064, "F36189C6-A81A-4391-8E15-43AEA0D71107", 6064, 1414553254, "878752", 1414553254, "878752", null, "Western-Diversey-Elston", "NB", "WB", null, "2008-07-18T00:00:00", "41.932179", "-87.687883", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.932179", "-87.687883", null, false ] ]
+, [ 6065, "B305E38E-5E59-4851-8EEB-B24886BE522B", 6065, 1414553254, "878752", 1414553254, "878752", null, "Kedzie-79th-Columbus", "SB", "EB", null, "2006-01-10T00:00:00", "41.749842", "-87.702396", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.749842", "-87.702396", null, false ] ]
+, [ 6066, "BB141E27-114B-49A4-9D4C-E8E4A39B7269", 6066, 1414553254, "878752", 1414553254, "878752", null, "Western-Devon", "NB", "SB", null, "2008-07-31T00:00:00", "41.99773", "-87.689881", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.99773", "-87.689881", null, false ] ]
+, [ 6067, "F4B13ED8-04B1-412B-AB8E-4BE9ECDFD30F", 6067, 1414553254, "878752", 1414553254, "878752", null, "Halsted-Fullerton-Lincoln", "NB", "WB", null, "2008-08-31T00:00:00", "41.925454", "-87.64876", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.925454", "-87.64876", null, false ] ]
+, [ 6068, "F4C3A779-CACE-44DB-A3BD-18854A2310DA", 6068, 1414553254, "878752", 1414553254, "878752", null, "State-79th", "WB", "NB", null, "2009-06-26T00:00:00", "41.750958", "-87.624547", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.750958", "-87.624547", null, false ] ]
+, [ 6069, "9464681D-AC4D-4C93-B3F8-693128F4FD80", 6069, 1414553254, "878752", 1414553254, "878752", null, "Pulaski-Belmont", "SB", "EB", null, "2007-05-19T00:00:00", "41.939094", "-87.727185", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.939094", "-87.727185", null, false ] ]
+, [ 6071, "4FEF9604-FF75-4623-BB70-3BFB22550B0B", 6071, 1414553254, "878752", 1414553254, "878752", null, "Ashland-Division", "NB", "EB", null, "2007-10-25T00:00:00", "41.903347", "-87.667496", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.903347", "-87.667496", null, false ] ]
+, [ 6072, "A9F13CEC-5DFC-47AB-AA62-B22E4A622A6A", 6072, 1414553254, "878752", 1414553254, "878752", null, "State-63rd", "SB", "WB", null, "2006-01-18T00:00:00", "41.780058", "-87.625374", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.780058", "-87.625374", null, false ] ]
+, [ 6073, "551D52DD-E397-40BC-B291-CDF947BB4C25", 6073, 1414553254, "878752", 1414553254, "878752", null, "Sheridan-Hollywood", "WB", "EB", null, "2007-10-18T00:00:00", "41.985549", "-87.655242", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.985549", "-87.655242", null, false ] ]
+, [ 6074, "B95646CA-C263-40CE-9DBE-92E360FC3C0C", 6074, 1414553254, "878752", 1414553254, "878752", null, "Cicero-Addison", "NB", "SB", null, "2008-11-30T00:00:00", "41.946124", "-87.747064", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.946124", "-87.747064", null, false ] ]
+, [ 6075, "48E2FC0A-0017-4628-8C28-F1FF5E059914", 6075, 1414553254, "878752", 1414553254, "878752", null, "Halsted-79th", "NB", "EB", null, "2008-04-30T00:00:00", "41.750643", "-87.644043", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.750643", "-87.644043", null, false ] ]
+, [ 6076, "E33172F3-5CD2-4B76-8991-BB2B32375BA9", 6076, 1414553254, "878752", 1414553254, "878752", null, "Kedzie-63rd", "NB", "WB", null, "2007-11-26T00:00:00", "41.778972", "-87.703138", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.778972", "-87.703138", null, false ] ]
+, [ 6078, "B7391CC1-66F7-4D72-B2F0-11D446C05BD0", 6078, 1414553254, "878752", 1414553254, "878752", null, "Central-Lake", "SB", "EB", null, "2009-07-17T00:00:00", "41.887729", "-87.76512", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.887729", "-87.76512", null, false ] ]
+, [ 6080, "0F9877EC-C0E2-4EFA-8416-D10CFD67EC3E", 6080, 1414553254, "878752", 1414553254, "878752", null, "Pulaski-Cermak", "SB", "WB", null, "2004-10-11T00:00:00", "41.851546", "-87.724757", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.851546", "-87.724757", null, false ] ]
+, [ 6081, "13C2B664-2C2D-4F1C-AEF7-C0A9954DC85E", 6081, 1414553254, "878752", 1414553254, "878752", null, "Vincennes-87th", "SB", "EB", null, "2004-11-11T00:00:00", "41.73605", "-87.645174", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.73605", "-87.645174", null, false ] ]
+, [ 6083, "C0F4960D-5AE3-4ADA-BF19-A93E7A9624DF", 6083, 1414553254, "878752", 1414553254, "878752", null, "Cottage Grove-71st-South Chicago", "NB", "SB", null, "2008-04-30T00:00:00", "41.765868", "-87.605586", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.765868", "-87.605586", null, false ] ]
+, [ 6085, "AD8D9C26-583C-40E5-9884-37576BB1A49D", 6085, 1414553254, "878752", 1414553254, "878752", null, "Austin-Diversey", "WB", "EB", null, "2008-06-28T00:00:00", "41.931139", "-87.775966", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.931139", "-87.775966", null, false ] ]
+, [ 6087, "8943C542-A494-4333-BDB8-3102ADD7728D", 6087, 1414553254, "878752", 1414553254, "878752", null, "Austin-Irving Park", "NB", "EB", null, "2008-06-30T00:00:00", "41.953055", "-87.776775", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.953055", "-87.776775", null, false ] ]
+, [ 6088, "E71A47BA-77D7-450F-99B7-FBB0F28D1BB8", 6088, 1414553254, "878752", 1414553254, "878752", null, "Kedzie-55th", "SB", "EB", null, "2009-10-20T00:00:00", "41.793513", "-87.703553", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.793513", "-87.703553", null, false ] ]
+, [ 6089, "7C6ACDB9-FA58-44D8-95AA-403C5A0EEF21", 6089, 1414553254, "878752", 1414553254, "878752", null, "Nagle-Foster", "WB", "NB", null, "2004-10-14T00:00:00", "41.975652", "-87.787872", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.975652", "-87.787872", null, false ] ]
+, [ 6090, "531A6432-C5AB-4B91-B996-6B137016826E", 6090, 1414553254, "878752", 1414553254, "878752", null, "Western-North", "NB", "EB", null, "2007-11-26T00:00:00", "41.91032", "-87.687222", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.91032", "-87.687222", null, false ] ]
+, [ 6091, "19A8A8BF-C949-4E08-9F6E-4A8BEC213518", 6091, 1414553254, "878752", 1414553254, "878752", null, "Kostner-Roosevelt", "EB", "NB", null, "2004-03-18T00:00:00", "41.866031", "-87.734965", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.866031", "-87.734965", null, false ] ]
+, [ 6092, "CE5BC529-48AA-4E37-A04D-304DE4486073", 6092, 1414553254, "878752", 1414553254, "878752", null, "Western-Fullerton", "NB", "SB", null, "2009-06-29T00:00:00", "41.9249", "-87.687641", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.9249", "-87.687641", null, false ] ]
+, [ 6093, "A6B68E9C-5154-4E48-8712-C26023030D22", 6093, 1414553254, "878752", 1414553254, "878752", null, "Pulaski-Irving Park", "SB", "WB", null, "2009-05-19T00:00:00", "41.953646", "-87.727617", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.953646", "-87.727617", null, false ] ]
+, [ 6094, "D27709C2-13E7-488C-996A-B3BA9AAF9547", 6094, 1414553254, "878752", 1414553254, "878752", null, "Milwaukee-Devon", "SB", "WB", null, "2009-02-28T00:00:00", "41.997354", "-87.787444", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.997354", "-87.787444", null, false ] ]
+, [ 6095, "0D40866C-E42A-460E-82BB-11C236FB2492", 6095, 1414553254, "878752", 1414553254, "878752", null, "Pulaski-63rd", "SB", "EB", null, "2007-03-31T00:00:00", "41.778658", "-87.722759", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.778658", "-87.722759", null, false ] ]
+, [ 6096, "4D1F35D8-AB26-47E7-B2EE-50C54CDFD013", 6096, 1414553254, "878752", 1414553254, "878752", null, "Damen-Diversey-Clybourn", "SB", "WB", null, "2008-06-30T00:00:00", "41.932285", "-87.678136", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.932285", "-87.678136", null, false ] ]
+, [ 6097, "46D75E41-769E-40FC-A85E-F379CF7F7FB1", 6097, 1414553254, "878752", 1414553254, "878752", null, "Halsted-North", "NB", "WB", null, "2009-06-29T00:00:00", "41.91092", "-87.648273", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.91092", "-87.648273", null, false ] ]
+, [ 6099, "3013FE01-5C46-4AF8-BA4F-A4E7575D5D3E", 6099, 1414553254, "878752", 1414553254, "878752", null, "Western-Touhy", "SB", "NB", null, "2008-10-21T00:00:00", "42.012279", "-87.690246", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "42.012279", "-87.690246", null, false ] ]
+, [ 6100, "49A416DA-2DAB-418B-B93F-2DF4625B0680", 6100, 1414553254, "878752", 1414553254, "878752", null, "Harlem-Addison", "NB", "EB", null, "2009-06-21T00:00:00", "41.945264", "-87.807006", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.945264", "-87.807006", null, false ] ]
+, [ 6101, "6FB85E11-F712-4B4F-9601-118133179415", 6101, 1414553254, "878752", 1414553254, "878752", null, "Cicero-Harrison", "SB", "EB", null, "2009-11-19T00:00:00", "41.873141", "-87.745", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.873141", "-87.745", null, false ] ]
+, [ 6102, "6F620F8A-7574-467B-9689-893C45E52B42", 6102, 1414553254, "878752", 1414553254, "878752", null, "Wentworth-Garfield", "NB", "WB", null, "2008-05-08T00:00:00", "41.794201", "-87.630518", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.794201", "-87.630518", null, false ] ]
+, [ 6103, "E453F54D-B275-4BE9-884A-342C5A1CDD06", 6103, 1414553254, "878752", 1414553254, "878752", null, "Elston-Addison", "SB", "EB", null, "2007-10-19T00:00:00", "41.946622", "-87.708841", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.946622", "-87.708841", null, false ] ]
+, [ 6104, "FBC2A581-F6E7-491A-99B9-9139C5B559D8", 6104, 1414553254, "878752", 1414553254, "878752", null, "Western-63rd", "NB", "EB", null, "2007-11-12T00:00:00", "41.779214", "-87.683638", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.779214", "-87.683638", null, false ] ]
+, [ 6105, "588BEA9D-2BA3-4BC9-A2E7-BFB88CEF1929", 6105, 1414553254, "878752", 1414553254, "878752", null, "Hamlin-Madison", "NB", "EB", null, "2009-04-29T00:00:00", "41.880789", "-87.720752", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.880789", "-87.720752", null, false ] ]
+, [ 6106, "4B244973-F3BD-4BAA-8855-3B27873C3748", 6106, 1414553254, "878752", 1414553254, "878752", null, "Laramie-Irving Park", "EB", "WB", null, "2010-01-27T00:00:00", "41.953299", "-87.757148", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.953299", "-87.757148", null, false ] ]
+, [ 6107, "461392AA-886C-4137-B11E-CBCF8B6A94CE", 6107, 1414553254, "878752", 1414553254, "878752", null, "Cicero-Armitage", "EB", "NB", null, "2008-11-14T00:00:00", "41.916931", "-87.746111", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.916931", "-87.746111", null, false ] ]
+, [ 6108, "F3945DCA-6AD7-49D0-AB9E-4B8D01B1199E", 6108, 1414553254, "878752", 1414553254, "878752", null, "Jeffery-95th", "SB", "EB", null, "2007-11-26T00:00:00", "41.722468", "-87.575353", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.722468", "-87.575353", null, false ] ]
+, [ 6109, "57D87301-D50D-43DB-9C95-EECE17941139", 6109, 1414553254, "878752", 1414553254, "878752", null, "Canal-Roosevelt", "NB", "WB", null, "2008-11-30T00:00:00", "41.867252", "-87.639216", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.867252", "-87.639216", null, false ] ]
+, [ 6110, "1C9A7E6F-D41C-4508-BBA4-D90C1DE817A9", 6110, 1414553254, "878752", 1414553254, "878752", null, "Western-Chicago", "NB", "EB", null, "2007-05-07T00:00:00", "41.895743", "-87.686843", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.895743", "-87.686843", null, false ] ]
+, [ 6111, "6AF632CF-AA0F-41E0-8B94-D376BB05DBA5", 6111, 1414553254, "878752", 1414553254, "878752", null, "Narragansett-Irving Park", "EB", "WB", null, "2004-10-14T00:00:00", "41.952916", "-87.786558", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.952916", "-87.786558", null, false ] ]
+, [ 6113, "0D559B01-A5F5-4739-9A87-24B938F9BC57", 6113, 1414553254, "878752", 1414553254, "878752", null, "Lake Shore-Belmont", "SB", "EB", null, "2008-06-22T00:00:00", "41.94024", "-87.638696", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.94024", "-87.638696", null, false ] ]
+, [ 6114, "15332482-77E3-4191-9CA6-88B4FFC51FED", 6114, 1414553254, "878752", 1414553254, "878752", null, "Cicero-Lawrence", "NB", "SB", null, "2004-11-02T00:00:00", "41.968029", "-87.74772", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.968029", "-87.74772", null, false ] ]
+, [ 6115, "A9DCF00C-FA92-4D64-AF3E-839C495A147A", 6115, 1414553254, "878752", 1414553254, "878752", null, "Ashland-Lawrence", "SB", "EB", null, "2008-08-27T00:00:00", "41.968876", "-87.66944", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.968876", "-87.66944", null, false ] ]
+, [ 6149, "A8066835-A309-4442-ACC4-4B8BFA4C1A19", 6149, 1448076447, "878752", 1448076447, "878752", null, "Osceola-Touhy", "EB", "WB", null, "2008-10-21T00:00:00", "42.011553", "-87.812251", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "42.011553", "-87.812251", null, false ] ]
+, [ 6150, "9878F0A2-09E9-4B59-9A9A-00A9101BF1EF", 6150, 1448076447, "878752", 1448076447, "878752", null, "Cicero-Stevenson NB (SOUTH INTERSECTION)", "NB", "SB", null, "2009-04-29T00:00:00", "41.817092", "-87.743477", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.817092", "-87.743477", null, false ] ]
+, [ 6172, "3DF2CEFF-4F84-46C9-A6CF-0AC2600681B8", 6172, 1479900441, "878752", 1479900441, "878752", null, "Stony?Island-Cornell-67th", "NB", "NB", null, "2007-11-26T00:00:00", "41.77334", "-87.586295", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.77334", "-87.586295", null, false ] ]
+, [ 6173, "8334682A-B248-4FFD-A5E3-1ED27C2D9541", 6173, 1479900441, "878752", 1479900441, "878752", null, "Western-Van?Buren", "WB", "SB", null, "2008-05-29T00:00:00", "41.876083", "-87.686271", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.876083", "-87.686271", null, false ] ]
+, [ 6174, "4880315A-CD6D-4C28-90D7-FF244324833F", 6174, 1479900441, "878752", 1479900441, "878752", null, "Stony?Island-79th-South Chicago", "SB", "WB", "NB", "2007-05-07T00:00:00", "41.751506", "-87.585823", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.751506", "-87.585823", null, false ] ]
+, [ 6177, "661CEAF3-80CF-4D79-98AB-B46B0F9D2BE0", 6177, 1510313236, "878752", 1510313236, "878752", null, "Western-Peterson", "NB", "SB", null, "2004-02-26T00:00:00", "41.9905", "-87.689671", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.9905", "-87.689671", null, false ] ]
+, [ 6178, "E7F12DE3-6F41-4DCA-9839-12355826AF60", 6178, 1510313236, "878752", 1510313236, "878752", null, "Elston-Lawrence", "SB", "WB", null, "2009-06-08T00:00:00", "41.968108", "-87.740163", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.968108", "-87.740163", null, false ] ]
+, [ 6180, "8AC06021-577F-400E-8A4C-A7418BC88681", 6180, 1510313236, "878752", 1510313236, "878752", null, "Milwaukee-Montrose", "SB", "WB", null, "2010-03-11T00:00:00", "41.960632", "-87.754476", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.960632", "-87.754476", null, false ] ]
+, [ 6182, "6D01B4FE-3767-406D-9B4C-68EC6F9132C8", 6182, 1510658839, "878752", 1510658839, "878752", null, "Damen-Elston", "SB", null, null, "2006-02-17T00:00:00", "41.925816", "-87.677898", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.925816", "-87.677898", null, false ] ]
+, [ 6183, "93A317B0-BCFF-4E8C-B437-DF482C473318", 6183, 1511436436, "878752", 1511436436, "878752", null, "Damen-Fullerton", "EB", null, null, "2006-02-17T00:00:00", "41.925025", "-87.677898", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.925025", "-87.677898", null, false ] ]
+, [ 6184, "73DFFEBD-083C-4DA6-97FA-FC7C5C71AF6D", 6184, 1516447635, "878752", 1516447635, "878752", null, "Central-Milwaukee", "SB", "SEB", null, "2017-09-29T00:00:00", "41.976514", "-87.768467", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.976514", "-87.768467", null, false ] ]
+, [ 6185, "3515F7AC-92B0-4018-9D39-8382EC9D7DBE", 6185, 1516447635, "878752", 1516447635, "878752", null, "Northwest Hwy-Foster", "SEB", "EB", null, "2017-09-29T00:00:00", "41.975688", "-87.769261", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "41.975688", "-87.769261", null, false ] ]
+ ]
+}
