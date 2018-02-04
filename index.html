@@ -11,7 +11,6 @@
   <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js"></script>
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -42,11 +41,7 @@
           </p>
           <p>
             <label>Zipcode:</label>
-<!--                <input type="number" id="replyNumber" min="0" step="1" data-bind="value:replyNumber" /> -->
-
             <input type="text" name="zipcode" id="zipcode" required>
-<!--              <span class="glyphicon glyphicon-search">
-    <span class="glyphicon glyphicon-ok form-control-feedback"></span> -->
           </p>
           <p>
             <label>City:</label>
@@ -57,7 +52,7 @@
             <input type="text" name="state" id="state">
           </p>
           <p class="full">
-            <button type="submit" id="submit" onclick="myFunction()"><h>Submit<h/></button>
+            <button type="submit" id="submit"><h>Submit<h/></button>
           </p>
         </form>
       </div>
@@ -65,19 +60,5 @@
   </div>
   <script src="assets/javascript/addressPageSubmitLogic.js"></script>
   <script src="assets/javascript/data.js"></script>
-  <script type="text/javascript">
-    function myFunction() {
-      var text = "";
-      var zip = $("#zipcode").text;
-          // If x is Not a Number or less than one or greater than 10
-    if (isNaN(zip) || zip < 1 || zip > 10) {
-        text = "Input not valid";
-    } else {
-        text = "Input OK";
-    }
-    $("#zipcode").text = text
-      //console.log(zip)
-    }
-  </script>
 </body>
 </html>
